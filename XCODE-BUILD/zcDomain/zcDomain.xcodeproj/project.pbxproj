@@ -1,0 +1,1494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		08CA998606A842449A077EA3 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 62EE707FB9A04EBD8F964465 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				26F632D540B149A09D7B185A /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		22DEC8558F6F4C27A44FB00D /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8F08689BD2D344A9A621A0C2 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				AFED9B8448B94F35AB3858BE /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				5B7C2BA3BA334C06AE742BA5 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		83FF43F7F65F4C1D9D6FFC7D /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BCDD3D543AFD42AE98A3A5F0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				BAF194C09E514333B69A33AF /* CMake Rules */,
+			);
+			dependencies = (
+				0DFBAABA3B474354BC7FEF74 /* PBXTargetDependency */,
+				01D0D4875C834BC781E08B84 /* PBXTargetDependency */,
+				F8A009AF87234F9B906B2F31 /* PBXTargetDependency */,
+				40D806FDD67844CC840C21E0 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0C782CDBB9E743E59C511242 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Email.hpp */ = {isa = PBXBuildFile; fileRef = 444AF9615CA147A7984A0EB9 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Email.hpp */; };
+		0DC5A1269B8B43FCB27B2CAA /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/DoB.cpp */ = {isa = PBXBuildFile; fileRef = 285C0AC397EA467C9F869473 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/DoB.cpp */; };
+		0F50080E33B444278B8D7F0B /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_assert/ppk_assert.h */ = {isa = PBXBuildFile; fileRef = 9BA0E6B57A7341C88070DA93 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_assert/ppk_assert.h */; };
+		13ED0E4F52514A6787DF52A8 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/zcDomain.h */ = {isa = PBXBuildFile; fileRef = 923AA83C90FA4A4B8761FE07 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/zcDomain.h */; };
+		1400FB8CD8444A8FB88A1B82 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Aggregate.hpp */ = {isa = PBXBuildFile; fileRef = 8CDA6EE7AEDF4A068E553B85 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Aggregate.hpp */; };
+		194A213CE74948F793AAB321 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/SSN.cpp */ = {isa = PBXBuildFile; fileRef = D25CE2E123FF44A38865EB59 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/SSN.cpp */; };
+		1A3210607DE04B478A4C2F75 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/ReferralCode.hpp */ = {isa = PBXBuildFile; fileRef = 6080FB5A19094EB88544CFEA /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/ReferralCode.hpp */; };
+		1A52A03D00804726B826D1CD /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountVerificationStarted.hpp */ = {isa = PBXBuildFile; fileRef = 78626C53257F4888A295DE88 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountVerificationStarted.hpp */; };
+		1B699E274847495EAF47A0FD /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/test/lib/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7EE0A60D13904FE8AA50DD3B /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/test/lib/CMakeLists.txt */; };
+		1C0D6F573FB84744843FA516 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command_CloseAccount.hpp */ = {isa = PBXBuildFile; fileRef = F4DC0587E35B4D388B65E506 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command_CloseAccount.hpp */; };
+		1E93EE9B6BBC475D93A9DF40 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountVerificationStarted.hpp */ = {isa = PBXBuildFile; fileRef = 31FB34E1B7284B7B89093622 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountVerificationStarted.hpp */; };
+		2315157BBA0B48AA824F732C /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Aggregate_Account.hpp */ = {isa = PBXBuildFile; fileRef = 4341EAD79F5B4292960575CD /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Aggregate_Account.hpp */; };
+		23791089ECEE4311A4CF2089 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/test/lib/src/zcDomain_TestLib.cpp */ = {isa = PBXBuildFile; fileRef = 82AA437FD3F5465095650D55 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/test/lib/src/zcDomain_TestLib.cpp */; };
+		259E3C89F56A45B2B0762DA4 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/event/Event_AccountCreated.cpp */ = {isa = PBXBuildFile; fileRef = 506131DA83C145C08938EFFD /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/event/Event_AccountCreated.cpp */; };
+		25DC66896A4847AD99520485 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/DoB.hpp */ = {isa = PBXBuildFile; fileRef = F6BA0184D5164775BD1CD9CF /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/DoB.hpp */; };
+		260BDA4480674A17843EE77B /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/SSN.hpp */ = {isa = PBXBuildFile; fileRef = BDE88A2FE6F045B0B5D8412F /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/SSN.hpp */; };
+		28A008E221374B48A1529189 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/zcDomain.h */ = {isa = PBXBuildFile; fileRef = 9D8357A40BAD44CB9DDCAA9B /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/zcDomain.h */; };
+		28E2CDC49E864348BA5DC485 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/Aggregate_Account.cpp */ = {isa = PBXBuildFile; fileRef = 0BF31F30E6AF47AFAAF8CDDF /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/Aggregate_Account.cpp */; };
+		2B2DA3C61033428388B44A3E /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/Aggregate.cpp */ = {isa = PBXBuildFile; fileRef = B4BDE49826FB43CDA790ABDA /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/Aggregate.cpp */; };
+		2E13923E1CB2478BAAA390C1 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/PhoneNumber.hpp */ = {isa = PBXBuildFile; fileRef = 739AA6E4956948EA88217723 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/PhoneNumber.hpp */; };
+		358C401EA8BF491F809D1AE8 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zcSinglyLinkedList.h */ = {isa = PBXBuildFile; fileRef = 4E32AB870DCD44A7A5553370 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zcSinglyLinkedList.h */; };
+		35CC6BC455F44B29AD0320A2 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_assert/Zircon_Assertions.hpp */ = {isa = PBXBuildFile; fileRef = 7182ED0B918C405FAE2F6EEA /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_assert/Zircon_Assertions.hpp */; };
+		35E39D3F9F264337BD2CD96D /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/AccountId.hpp */ = {isa = PBXBuildFile; fileRef = E535807D5B9045378E5C7C3B /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/AccountId.hpp */; };
+		36DF975B3C374B2A820EAE03 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Aggregate.hpp */ = {isa = PBXBuildFile; fileRef = F42B337FFEDB45D0A703E366 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Aggregate.hpp */; };
+		378EA0C1D78C4465815642DB /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/NameOfPerson.cpp */ = {isa = PBXBuildFile; fileRef = E51DFCA90F5E494E8A0FBEDD /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/NameOfPerson.cpp */; };
+		38D18F6DF45041A9BF492EBE /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/AccountInformation.cpp */ = {isa = PBXBuildFile; fileRef = A47AFE86ED5A4F98B4CA3B34 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/AccountInformation.cpp */; };
+		39882F0ED91948EEA3A5A7D7 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Aggregate_Account.hpp */ = {isa = PBXBuildFile; fileRef = 2D7EA3F3CA6F4973AF35F927 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Aggregate_Account.hpp */; };
+		3B4F9939EC2A4B6DACC2F804 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountCreated.hpp */ = {isa = PBXBuildFile; fileRef = 42AB80D029E74EDAB6784D26 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountCreated.hpp */; };
+		3C6E4EACACC14F5B8D0FE6D0 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/zcDomain_p.h */ = {isa = PBXBuildFile; fileRef = 6EC0AC2033674D608723CA0B /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/zcDomain_p.h */; };
+		3C98B04B23D547A4A7586D4A /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/PhoneNumber.hpp */ = {isa = PBXBuildFile; fileRef = FCCBF6D7B9264248B057E3C9 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/PhoneNumber.hpp */; };
+		3E85C586AD54499D90D2FFC0 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/AccountId.hpp */ = {isa = PBXBuildFile; fileRef = B75D7FA5C06D488EA6BC9B13 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/AccountId.hpp */; };
+		410D7A2081EC4A0DBB6B1AC7 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_assert/ppk_assert.h */ = {isa = PBXBuildFile; fileRef = 8A95BD4118EF4F1B80C396C3 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_assert/ppk_assert.h */; };
+		41483A3CC134478480325620 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/AccountInformation.hpp */ = {isa = PBXBuildFile; fileRef = 367F8BBE6220485ABD052F5C /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/AccountInformation.hpp */; };
+		41D4FABB1C7E444D97B438B3 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/sample/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 69CFF0CBFB82457FB8FB468F /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/sample/CMakeLists.txt */; };
+		44A36C2601EC4D6EBEF1763D /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/PhoneNumber.cpp */ = {isa = PBXBuildFile; fileRef = 6705DD2B074642C3922E5F41 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/PhoneNumber.cpp */; };
+		4800B91DAE00430496D96D0E /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/test/lib/src/test_DomainSample.cpp */ = {isa = PBXBuildFile; fileRef = DC70D958486B49CAAAFE5AD2 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/test/lib/src/test_DomainSample.cpp */; };
+		489A578F6CC24AA38314D28C /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/CommonHeaders.hpp */ = {isa = PBXBuildFile; fileRef = 835974C69FB249E78F42EECF /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/CommonHeaders.hpp */; };
+		495D25A446C64CA3BEE75C97 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event.hpp */ = {isa = PBXBuildFile; fileRef = 0476A2A9C66B4BC5A83F3971 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event.hpp */; };
+		4ABDEFCD9DD543168B89D174 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Email.hpp */ = {isa = PBXBuildFile; fileRef = 970BB4CD8E334F85ACCCCC84 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Email.hpp */; };
+		4B0A8167E06940BBAEB549D4 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command_CreateAccount.hpp */ = {isa = PBXBuildFile; fileRef = FF736133B530472E9D8644BA /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command_CreateAccount.hpp */; };
+		4B0C17646737430D8245F717 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/FullName.hpp */ = {isa = PBXBuildFile; fileRef = 3919747B57D6418DB093DF45 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/FullName.hpp */; };
+		4D9199F0A9EC4517A917D6BA /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Email.hpp */ = {isa = PBXBuildFile; fileRef = 06B9BF5A306E4D90BBF7764C /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Email.hpp */; };
+		4DF81BC000264D54BFAE127B /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/zcDomain.cpp */ = {isa = PBXBuildFile; fileRef = 2CAF453BF76F4FBD97AE1900 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/zcDomain.cpp */; };
+		54F797479BE048F99CCF784C /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/event/Event.cpp */ = {isa = PBXBuildFile; fileRef = CC719D24393447789316DD1E /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/event/Event.cpp */; };
+		565D9DAE7F3549858CE38443 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/AccountId.cpp */ = {isa = PBXBuildFile; fileRef = F9A63ADAE46246A89E12622E /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/AccountId.cpp */; };
+		5681AB8FEA2D49BD91CA1E25 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/PhoneNumber.hpp */ = {isa = PBXBuildFile; fileRef = 5D662A8A637445D89559BCA2 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/PhoneNumber.hpp */; };
+		582A902BEB874E7DA8A28B65 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/AccountInformation.hpp */ = {isa = PBXBuildFile; fileRef = 15A053FBDA4E49E4A7DCB003 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/AccountInformation.hpp */; };
+		59C63AACFEE74CE69762DF58 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountClosed.hpp */ = {isa = PBXBuildFile; fileRef = 3F900F3D9B62416392F3F720 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountClosed.hpp */; };
+		5BB212DAFEDF437AADEBFFFA /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/Version.hpp */ = {isa = PBXBuildFile; fileRef = F43FA99D3604420CBB37346F /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/Version.hpp */; };
+		5C2215C1F6724F0B8F1AB82A /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/AccountInformation.hpp */ = {isa = PBXBuildFile; fileRef = D0414426AD7647F492B3D31F /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/AccountInformation.hpp */; };
+		620B4F6290E346CEB0EF6C80 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/command/Command_CreateAccount.cpp */ = {isa = PBXBuildFile; fileRef = D9DA500D192A4C45B8CC0565 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/command/Command_CreateAccount.cpp */; };
+		62A70EC2AC83416886D9E227 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountCreated.hpp */ = {isa = PBXBuildFile; fileRef = CF0D1AF578A1407085EE51A0 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountCreated.hpp */; };
+		65D4A85B70F14CA494557B2B /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/event/Event_AccountVerificationStarted.cpp */ = {isa = PBXBuildFile; fileRef = C95B62C6C00B4AB292D48451 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/event/Event_AccountVerificationStarted.cpp */; };
+		6693A0A5B4DF413AACA33CDC /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command_CloseAccount.hpp */ = {isa = PBXBuildFile; fileRef = C4DDD0819E57414D909DDBCE /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command_CloseAccount.hpp */; };
+		6AB01C7BFA7C435799856FF7 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/Version.hpp */ = {isa = PBXBuildFile; fileRef = B925502A39EE4D828ADF8AB1 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/Version.hpp */; };
+		6C908F1843854EDEB35C990A /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/NameOfPerson.hpp */ = {isa = PBXBuildFile; fileRef = 0524937241C3446992664E17 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/NameOfPerson.hpp */; };
+		6DC6DD6C610D4D93B9B5D727 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/Email.cpp */ = {isa = PBXBuildFile; fileRef = 2C54D5208E0A404DBADC7B60 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/Email.cpp */; };
+		7229C67E88204514831B70FF /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command_CreateAccount.hpp */ = {isa = PBXBuildFile; fileRef = 07A756BD43A4413892B48503 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command_CreateAccount.hpp */; };
+		741368C5F47A4B36AB615E73 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/Version.hpp */ = {isa = PBXBuildFile; fileRef = 5324ADBC53F94BAF82D89148 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/Version.hpp */; };
+		74CAB797315642E58C6CB3FC /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/SSN.hpp */ = {isa = PBXBuildFile; fileRef = 176137C74953403890D8C830 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/SSN.hpp */; };
+		76C480A986484439B8A4E463 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/SSN.hpp */ = {isa = PBXBuildFile; fileRef = 3BDAFC11431144A394EA06D4 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/SSN.hpp */; };
+		7F212386EDA54B2F92E9F349 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_hash/ZcHash.hpp */ = {isa = PBXBuildFile; fileRef = 89A5689D79A040C9A60156E8 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_hash/ZcHash.hpp */; };
+		800561B487D54A46BAFDF914 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/zcTemplateClass.h */ = {isa = PBXBuildFile; fileRef = 3A74C3A82DC343CDB6D54AAC /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/zcTemplateClass.h */; };
+		82C2F5D3535349DC8B3BE3D1 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountCreated.hpp */ = {isa = PBXBuildFile; fileRef = 20949500DF4D4EB890014758 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountCreated.hpp */; };
+		853F2AB199DB45B5B8FDBE23 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event.hpp */ = {isa = PBXBuildFile; fileRef = DF8428D784614915A4E93A95 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event.hpp */; };
+		8F02B97AE4F94C2496140050 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command_CloseAccount.hpp */ = {isa = PBXBuildFile; fileRef = 8190EB54C5664571853F7328 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command_CloseAccount.hpp */; };
+		92BB9F0EFE224F14BB059D80 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/ReferralCode.cpp */ = {isa = PBXBuildFile; fileRef = E19E4D57455A4F84A5B42335 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/ReferralCode.cpp */; };
+		9399CA7D33FC43AFB63BCF38 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zcCommon.h */ = {isa = PBXBuildFile; fileRef = AAD137750676459BB7F5E5B1 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zcCommon.h */; };
+		9910B3A341E94B17AA5FF4DA /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/command/Command_CloseAccount.cpp */ = {isa = PBXBuildFile; fileRef = A1245BB631ED41B1804E38B9 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/command/Command_CloseAccount.cpp */; };
+		A38E3FF6773A4036AF1D8E06 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_assert/ppk_assert.h */ = {isa = PBXBuildFile; fileRef = CAE3FB730ACF44C88E1433A9 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_assert/ppk_assert.h */; };
+		A6A10D56EF1049C8AA3F061A /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command.hpp */ = {isa = PBXBuildFile; fileRef = DFE724A0CA764431BAC51258 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command.hpp */; };
+		A7A174433EC046AB8C71D8F8 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command.hpp */ = {isa = PBXBuildFile; fileRef = 82A56377BA634C2F98905BFB /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command.hpp */; };
+		A93BEFD244F148038C0305FB /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/NameOfPerson.hpp */ = {isa = PBXBuildFile; fileRef = 9A333EE2FAFD433590758163 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/NameOfPerson.hpp */; };
+		A97AFD0BA1044D03BE836453 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/test/lib/src/Test_Unit_Aggregate_Account.cpp */ = {isa = PBXBuildFile; fileRef = D76D1A57BAED433EA2909F09 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/test/lib/src/Test_Unit_Aggregate_Account.cpp */; };
+		AAAF12FDC3494894A254B090 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_hash/ZcHash.hpp */ = {isa = PBXBuildFile; fileRef = AF4ACBD88FD642C4BEE9B322 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_hash/ZcHash.hpp */; };
+		ABC8C9D58F444FA3B896A996 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/command/Command.cpp */ = {isa = PBXBuildFile; fileRef = 95E697DC5A3F460BB6014C3C /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/command/Command.cpp */; };
+		AE97E51925C242869665B71B /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/sample/src/zcDomain_Sample.cpp */ = {isa = PBXBuildFile; fileRef = AED3D81F25B145A48BC28726 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/sample/src/zcDomain_Sample.cpp */; };
+		AF3A6BDCF3A84BF2A93F20C7 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/zcDomain_p.cpp */ = {isa = PBXBuildFile; fileRef = 9C304F5762D34B4C9F80BF48 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/zcDomain_p.cpp */; };
+		B01E9DA365A64FAFB281258A /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/ReferralCode.hpp */ = {isa = PBXBuildFile; fileRef = 9F83BA4B9147416AB3B75680 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/ReferralCode.hpp */; };
+		B7BF1F7C3DC845E4A2A2716E /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/FullName.hpp */ = {isa = PBXBuildFile; fileRef = 09F5C00179554CDEBE26980A /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/FullName.hpp */; };
+		BB0ED91353AC470D8E1A8C0A /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command.hpp */ = {isa = PBXBuildFile; fileRef = 952683BE7CF04558896F830B /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command.hpp */; };
+		BFAE17B99BB34EA195CC7908 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/CommonHeaders.hpp */ = {isa = PBXBuildFile; fileRef = 7EDE5B0059814FFE809E4548 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/CommonHeaders.hpp */; };
+		C126846B384D49CFA3095EC7 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/test/lib/src/Test_Unit_Aggregate_Account_Apply_EventCreated.cpp */ = {isa = PBXBuildFile; fileRef = 396C4146301A44B4B33D9ED7 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/test/lib/src/Test_Unit_Aggregate_Account_Apply_EventCreated.cpp */; };
+		C136DCEE3EB8472884B003FC /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/zcDomain.h */ = {isa = PBXBuildFile; fileRef = 12BADC807065456F8FC9197C /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/zcDomain.h */; };
+		C669EC2C94E9436C9AE845F6 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_assert/Zircon_Assertions.hpp */ = {isa = PBXBuildFile; fileRef = 617E1C71A8274AF78A5D4585 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_assert/Zircon_Assertions.hpp */; };
+		C6CCADD12BB843C0B9A377EB /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event.hpp */ = {isa = PBXBuildFile; fileRef = 88C8AF9A1F9C40C3A4E230E4 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event.hpp */; };
+		C96FC01675ED4AB3905A93A1 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/DoB.hpp */ = {isa = PBXBuildFile; fileRef = 2CB9ECF4058040FFA50FE167 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/DoB.hpp */; };
+		CD749CEF13B2421F843AE706 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountClosed.hpp */ = {isa = PBXBuildFile; fileRef = 973CE7FA2C1D449B89F2AD03 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountClosed.hpp */; };
+		CF7DE4C219DA4AAFB1E99D42 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zcCommon.h */ = {isa = PBXBuildFile; fileRef = 9AE530FD44E643C9AEC6BFA7 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zcCommon.h */; };
+		D16367EA63C44EF3BB4A3358 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zcSinglyLinkedList.h */ = {isa = PBXBuildFile; fileRef = 060A365F88F644A1B4736168 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zcSinglyLinkedList.h */; };
+		D26076EAEB1540DFB70A02BB /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zcSinglyLinkedList.h */ = {isa = PBXBuildFile; fileRef = C1F9C56EA155416CA2A57D56 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zcSinglyLinkedList.h */; };
+		D5E6029B23264BF189593BC5 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountClosed.hpp */ = {isa = PBXBuildFile; fileRef = EDF41C4859294E5CB6CDD669 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountClosed.hpp */; };
+		D722225FD8104B5A9A446642 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Aggregate_Account.hpp */ = {isa = PBXBuildFile; fileRef = 373597E0E6D74E559678CDC1 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Aggregate_Account.hpp */; };
+		D85363774D1643919CD72ED5 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/ReferralCode.hpp */ = {isa = PBXBuildFile; fileRef = 22941C0A80F141208D08100D /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/ReferralCode.hpp */; };
+		DB8D80A657114D81B5848B30 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/AccountId.hpp */ = {isa = PBXBuildFile; fileRef = CE3C40F29A4A41FDB8B6A9B5 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/AccountId.hpp */; };
+		DC763CE3599845C69AE22DDE /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/FullName.hpp */ = {isa = PBXBuildFile; fileRef = 6860875ED7AB4E87AD4F58AC /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/FullName.hpp */; };
+		DCB02BE653A94F65BEB80AF5 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_hash/ZcHash.hpp */ = {isa = PBXBuildFile; fileRef = 91CE5FA205F9464CB0D16CD9 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_hash/ZcHash.hpp */; };
+		DEFC5A9154384DA3B0CEB826 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/NameOfPerson.hpp */ = {isa = PBXBuildFile; fileRef = 562C8E04CEBC4DA2AA2EAFA9 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/NameOfPerson.hpp */; };
+		DFD87F96F8C1445A89C1B69F /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Aggregate.hpp */ = {isa = PBXBuildFile; fileRef = 835E07DD3FF14947B09741FB /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Aggregate.hpp */; };
+		DFDD4E14102B4D4BBC1EEBB9 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zcCommon.h */ = {isa = PBXBuildFile; fileRef = 8989FAA4AF7F4E2AA6E1C35C /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zcCommon.h */; };
+		E51C37C5738241AAAAEDB31C /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/zcTemplateClass.cpp */ = {isa = PBXBuildFile; fileRef = B56EB0D25E8B4CF3B2DC2768 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/zcTemplateClass.cpp */; };
+		ECCD1F2D49D6478886856072 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/event/Event_AccountClosed.cpp */ = {isa = PBXBuildFile; fileRef = 1A5EE705103440F5BC61A5E1 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/event/Event_AccountClosed.cpp */; };
+		ECEF5BFE5C5D4335B770B140 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6455E2AD96B048A4B2EC212E /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/CMakeLists.txt */; };
+		ED40D30277B74336A592E5F9 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/DoB.hpp */ = {isa = PBXBuildFile; fileRef = 5560DD8CB7AA4BFB97DB0C15 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/DoB.hpp */; };
+		EDE3B71B72FF4F4DB120ECB7 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountVerificationStarted.hpp */ = {isa = PBXBuildFile; fileRef = 93E1EBCC294649C5883C5EEC /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountVerificationStarted.hpp */; };
+		EF9659CA50D54512A294A633 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_assert/Zircon_Assertions.hpp */ = {isa = PBXBuildFile; fileRef = A09B0B486EB14A6F88AA2EFB /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_assert/Zircon_Assertions.hpp */; };
+		F1421DCF9B474786A747D688 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/CommonHeaders.hpp */ = {isa = PBXBuildFile; fileRef = 066B6A2FC87B4E72A85B3CCA /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/CommonHeaders.hpp */; };
+		F898168BB6404A749C088805 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command_CreateAccount.hpp */ = {isa = PBXBuildFile; fileRef = 155770D3ECB244889B183525 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command_CreateAccount.hpp */; };
+		F94D81ADADF74D2B9B6E533E /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/FullName.cpp */ = {isa = PBXBuildFile; fileRef = AD29DE83E93145598C807E3D /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/FullName.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		3620BBB2591B491C8286ED89 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		B8D9C9C2339E4B37AAA8A43B /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		BE75D09FB3F24A0C973F4254 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		D60397EB979F4B08935C9043 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		14F19AE822894EDE8C41ED9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFFBE6891FFA4D2B936A26E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83FF43F7F65F4C1D9D6FFC7D;
+			remoteInfo = ALL_BUILD;
+		};
+		5522CFF4937D4FC69D706759 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFFBE6891FFA4D2B936A26E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B1F3D6D2529473EB51C9AC9;
+			remoteInfo = zcDomain;
+		};
+		552A44300F17463D995AE4F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFFBE6891FFA4D2B936A26E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBE8E33FD0FA47F7AE752A4B;
+			remoteInfo = zcDomain_Sample;
+		};
+		9349F616D8174A768EE3BF35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFFBE6891FFA4D2B936A26E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08CA998606A842449A077EA3;
+			remoteInfo = ZERO_CHECK;
+		};
+		AE7BEC5C1FDA4E8C9435F315 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFFBE6891FFA4D2B936A26E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B1F3D6D2529473EB51C9AC9;
+			remoteInfo = zcDomain;
+		};
+		C7A61427ACCD496296345D9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFFBE6891FFA4D2B936A26E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B1F3D6D2529473EB51C9AC9;
+			remoteInfo = zcDomain;
+		};
+		F09ED998EB424DDA82927BA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFFBE6891FFA4D2B936A26E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 899B4D2FA3DE45E1BCB04611;
+			remoteInfo = zcDomain_TestLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0476A2A9C66B4BC5A83F3971 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Event.hpp; path = lib/include/event/Event.hpp; sourceTree = SOURCE_ROOT; };
+		0524937241C3446992664E17 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/NameOfPerson.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = NameOfPerson.hpp; path = lib/include/aggregate/NameOfPerson.hpp; sourceTree = SOURCE_ROOT; };
+		060A365F88F644A1B4736168 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zcSinglyLinkedList.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zcSinglyLinkedList.h; path = ../zcShared/lib/include/zcSinglyLinkedList.h; sourceTree = SOURCE_ROOT; };
+		066B6A2FC87B4E72A85B3CCA /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/CommonHeaders.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = CommonHeaders.hpp; path = ../zcShared/lib/include/CommonHeaders.hpp; sourceTree = SOURCE_ROOT; };
+		06B9BF5A306E4D90BBF7764C /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Email.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Email.hpp; path = lib/include/aggregate/Email.hpp; sourceTree = SOURCE_ROOT; };
+		07A756BD43A4413892B48503 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command_CreateAccount.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Command_CreateAccount.hpp; path = lib/include/command/Command_CreateAccount.hpp; sourceTree = SOURCE_ROOT; };
+		09F5C00179554CDEBE26980A /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/FullName.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = FullName.hpp; path = lib/include/aggregate/FullName.hpp; sourceTree = SOURCE_ROOT; };
+		0BF31F30E6AF47AFAAF8CDDF /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/Aggregate_Account.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Aggregate_Account.cpp; path = lib/src/aggregate/Aggregate_Account.cpp; sourceTree = SOURCE_ROOT; };
+		12BADC807065456F8FC9197C /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/zcDomain.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zcDomain.h; path = lib/include/zcDomain.h; sourceTree = SOURCE_ROOT; };
+		155770D3ECB244889B183525 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command_CreateAccount.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Command_CreateAccount.hpp; path = lib/include/command/Command_CreateAccount.hpp; sourceTree = SOURCE_ROOT; };
+		15A053FBDA4E49E4A7DCB003 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/AccountInformation.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = AccountInformation.hpp; path = lib/include/aggregate/AccountInformation.hpp; sourceTree = SOURCE_ROOT; };
+		176137C74953403890D8C830 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/SSN.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SSN.hpp; path = lib/include/aggregate/SSN.hpp; sourceTree = SOURCE_ROOT; };
+		1A5EE705103440F5BC61A5E1 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/event/Event_AccountClosed.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Event_AccountClosed.cpp; path = lib/src/event/Event_AccountClosed.cpp; sourceTree = SOURCE_ROOT; };
+		20949500DF4D4EB890014758 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountCreated.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Event_AccountCreated.hpp; path = lib/include/event/Event_AccountCreated.hpp; sourceTree = SOURCE_ROOT; };
+		22941C0A80F141208D08100D /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/ReferralCode.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ReferralCode.hpp; path = lib/include/aggregate/ReferralCode.hpp; sourceTree = SOURCE_ROOT; };
+		285C0AC397EA467C9F869473 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/DoB.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DoB.cpp; path = lib/src/aggregate/DoB.cpp; sourceTree = SOURCE_ROOT; };
+		2C54D5208E0A404DBADC7B60 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/Email.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Email.cpp; path = lib/src/aggregate/Email.cpp; sourceTree = SOURCE_ROOT; };
+		2CAF453BF76F4FBD97AE1900 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/zcDomain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zcDomain.cpp; path = lib/src/zcDomain.cpp; sourceTree = SOURCE_ROOT; };
+		2CB9ECF4058040FFA50FE167 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/DoB.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = DoB.hpp; path = lib/include/aggregate/DoB.hpp; sourceTree = SOURCE_ROOT; };
+		2D7EA3F3CA6F4973AF35F927 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Aggregate_Account.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Aggregate_Account.hpp; path = lib/include/aggregate/Aggregate_Account.hpp; sourceTree = SOURCE_ROOT; };
+		31FB34E1B7284B7B89093622 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountVerificationStarted.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Event_AccountVerificationStarted.hpp; path = lib/include/event/Event_AccountVerificationStarted.hpp; sourceTree = SOURCE_ROOT; };
+		367F8BBE6220485ABD052F5C /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/AccountInformation.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = AccountInformation.hpp; path = lib/include/aggregate/AccountInformation.hpp; sourceTree = SOURCE_ROOT; };
+		373597E0E6D74E559678CDC1 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Aggregate_Account.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Aggregate_Account.hpp; path = lib/include/aggregate/Aggregate_Account.hpp; sourceTree = SOURCE_ROOT; };
+		3919747B57D6418DB093DF45 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/FullName.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = FullName.hpp; path = lib/include/aggregate/FullName.hpp; sourceTree = SOURCE_ROOT; };
+		396C4146301A44B4B33D9ED7 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/test/lib/src/Test_Unit_Aggregate_Account_Apply_EventCreated.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Test_Unit_Aggregate_Account_Apply_EventCreated.cpp; path = exec/test/lib/src/Test_Unit_Aggregate_Account_Apply_EventCreated.cpp; sourceTree = SOURCE_ROOT; };
+		3A74C3A82DC343CDB6D54AAC /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/zcTemplateClass.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zcTemplateClass.h; path = lib/src/zcTemplateClass.h; sourceTree = SOURCE_ROOT; };
+		3BDAFC11431144A394EA06D4 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/SSN.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SSN.hpp; path = lib/include/aggregate/SSN.hpp; sourceTree = SOURCE_ROOT; };
+		3F900F3D9B62416392F3F720 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountClosed.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Event_AccountClosed.hpp; path = lib/include/event/Event_AccountClosed.hpp; sourceTree = SOURCE_ROOT; };
+		42AB80D029E74EDAB6784D26 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountCreated.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Event_AccountCreated.hpp; path = lib/include/event/Event_AccountCreated.hpp; sourceTree = SOURCE_ROOT; };
+		4341EAD79F5B4292960575CD /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Aggregate_Account.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Aggregate_Account.hpp; path = lib/include/aggregate/Aggregate_Account.hpp; sourceTree = SOURCE_ROOT; };
+		444AF9615CA147A7984A0EB9 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Email.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Email.hpp; path = lib/include/aggregate/Email.hpp; sourceTree = SOURCE_ROOT; };
+		4E32AB870DCD44A7A5553370 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zcSinglyLinkedList.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zcSinglyLinkedList.h; path = ../zcShared/lib/include/zcSinglyLinkedList.h; sourceTree = SOURCE_ROOT; };
+		506131DA83C145C08938EFFD /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/event/Event_AccountCreated.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Event_AccountCreated.cpp; path = lib/src/event/Event_AccountCreated.cpp; sourceTree = SOURCE_ROOT; };
+		5324ADBC53F94BAF82D89148 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/Version.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Version.hpp; path = ../zcShared/lib/include/Version.hpp; sourceTree = SOURCE_ROOT; };
+		5560DD8CB7AA4BFB97DB0C15 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/DoB.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = DoB.hpp; path = lib/include/aggregate/DoB.hpp; sourceTree = SOURCE_ROOT; };
+		562C8E04CEBC4DA2AA2EAFA9 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/NameOfPerson.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = NameOfPerson.hpp; path = lib/include/aggregate/NameOfPerson.hpp; sourceTree = SOURCE_ROOT; };
+		5D662A8A637445D89559BCA2 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/PhoneNumber.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PhoneNumber.hpp; path = lib/include/aggregate/PhoneNumber.hpp; sourceTree = SOURCE_ROOT; };
+		6080FB5A19094EB88544CFEA /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/ReferralCode.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ReferralCode.hpp; path = lib/include/aggregate/ReferralCode.hpp; sourceTree = SOURCE_ROOT; };
+		617E1C71A8274AF78A5D4585 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_assert/Zircon_Assertions.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Zircon_Assertions.hpp; path = ../zcShared/lib/include/zc_assert/Zircon_Assertions.hpp; sourceTree = SOURCE_ROOT; };
+		6455E2AD96B048A4B2EC212E /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = lib/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6705DD2B074642C3922E5F41 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/PhoneNumber.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PhoneNumber.cpp; path = lib/src/aggregate/PhoneNumber.cpp; sourceTree = SOURCE_ROOT; };
+		6860875ED7AB4E87AD4F58AC /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/FullName.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = FullName.hpp; path = lib/include/aggregate/FullName.hpp; sourceTree = SOURCE_ROOT; };
+		69CFF0CBFB82457FB8FB468F /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/sample/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = exec/sample/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6EC0AC2033674D608723CA0B /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/zcDomain_p.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zcDomain_p.h; path = lib/src/zcDomain_p.h; sourceTree = SOURCE_ROOT; };
+		70A066C7128C4F7CA752E78A /* zcDomain */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libzcDomain.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7182ED0B918C405FAE2F6EEA /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_assert/Zircon_Assertions.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Zircon_Assertions.hpp; path = ../zcShared/lib/include/zc_assert/Zircon_Assertions.hpp; sourceTree = SOURCE_ROOT; };
+		739AA6E4956948EA88217723 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/PhoneNumber.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PhoneNumber.hpp; path = lib/include/aggregate/PhoneNumber.hpp; sourceTree = SOURCE_ROOT; };
+		78626C53257F4888A295DE88 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountVerificationStarted.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Event_AccountVerificationStarted.hpp; path = lib/include/event/Event_AccountVerificationStarted.hpp; sourceTree = SOURCE_ROOT; };
+		7EDE5B0059814FFE809E4548 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/CommonHeaders.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = CommonHeaders.hpp; path = ../zcShared/lib/include/CommonHeaders.hpp; sourceTree = SOURCE_ROOT; };
+		7EE0A60D13904FE8AA50DD3B /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/test/lib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = exec/test/lib/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8190EB54C5664571853F7328 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command_CloseAccount.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Command_CloseAccount.hpp; path = lib/include/command/Command_CloseAccount.hpp; sourceTree = SOURCE_ROOT; };
+		82A56377BA634C2F98905BFB /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Command.hpp; path = lib/include/command/Command.hpp; sourceTree = SOURCE_ROOT; };
+		82AA437FD3F5465095650D55 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/test/lib/src/zcDomain_TestLib.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zcDomain_TestLib.cpp; path = exec/test/lib/src/zcDomain_TestLib.cpp; sourceTree = SOURCE_ROOT; };
+		835974C69FB249E78F42EECF /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/CommonHeaders.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = CommonHeaders.hpp; path = ../zcShared/lib/include/CommonHeaders.hpp; sourceTree = SOURCE_ROOT; };
+		835E07DD3FF14947B09741FB /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Aggregate.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Aggregate.hpp; path = lib/include/aggregate/Aggregate.hpp; sourceTree = SOURCE_ROOT; };
+		88C8AF9A1F9C40C3A4E230E4 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Event.hpp; path = lib/include/event/Event.hpp; sourceTree = SOURCE_ROOT; };
+		8989FAA4AF7F4E2AA6E1C35C /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zcCommon.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zcCommon.h; path = ../zcShared/lib/include/zcCommon.h; sourceTree = SOURCE_ROOT; };
+		89A5689D79A040C9A60156E8 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_hash/ZcHash.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ZcHash.hpp; path = ../zcShared/lib/include/zc_hash/ZcHash.hpp; sourceTree = SOURCE_ROOT; };
+		8A95BD4118EF4F1B80C396C3 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_assert/ppk_assert.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ppk_assert.h; path = ../zcShared/lib/include/zc_assert/ppk_assert.h; sourceTree = SOURCE_ROOT; };
+		8CDA6EE7AEDF4A068E553B85 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Aggregate.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Aggregate.hpp; path = lib/include/aggregate/Aggregate.hpp; sourceTree = SOURCE_ROOT; };
+		91CE5FA205F9464CB0D16CD9 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_hash/ZcHash.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ZcHash.hpp; path = ../zcShared/lib/include/zc_hash/ZcHash.hpp; sourceTree = SOURCE_ROOT; };
+		923AA83C90FA4A4B8761FE07 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/zcDomain.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zcDomain.h; path = lib/include/zcDomain.h; sourceTree = SOURCE_ROOT; };
+		93E1EBCC294649C5883C5EEC /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountVerificationStarted.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Event_AccountVerificationStarted.hpp; path = lib/include/event/Event_AccountVerificationStarted.hpp; sourceTree = SOURCE_ROOT; };
+		952683BE7CF04558896F830B /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Command.hpp; path = lib/include/command/Command.hpp; sourceTree = SOURCE_ROOT; };
+		95E697DC5A3F460BB6014C3C /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/command/Command.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Command.cpp; path = lib/src/command/Command.cpp; sourceTree = SOURCE_ROOT; };
+		970BB4CD8E334F85ACCCCC84 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Email.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Email.hpp; path = lib/include/aggregate/Email.hpp; sourceTree = SOURCE_ROOT; };
+		973CE7FA2C1D449B89F2AD03 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountClosed.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Event_AccountClosed.hpp; path = lib/include/event/Event_AccountClosed.hpp; sourceTree = SOURCE_ROOT; };
+		9A333EE2FAFD433590758163 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/NameOfPerson.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = NameOfPerson.hpp; path = lib/include/aggregate/NameOfPerson.hpp; sourceTree = SOURCE_ROOT; };
+		9AE530FD44E643C9AEC6BFA7 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zcCommon.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zcCommon.h; path = ../zcShared/lib/include/zcCommon.h; sourceTree = SOURCE_ROOT; };
+		9BA0E6B57A7341C88070DA93 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_assert/ppk_assert.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ppk_assert.h; path = ../zcShared/lib/include/zc_assert/ppk_assert.h; sourceTree = SOURCE_ROOT; };
+		9C304F5762D34B4C9F80BF48 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/zcDomain_p.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zcDomain_p.cpp; path = lib/src/zcDomain_p.cpp; sourceTree = SOURCE_ROOT; };
+		9D8357A40BAD44CB9DDCAA9B /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/zcDomain.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zcDomain.h; path = lib/include/zcDomain.h; sourceTree = SOURCE_ROOT; };
+		9F83BA4B9147416AB3B75680 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/ReferralCode.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ReferralCode.hpp; path = lib/include/aggregate/ReferralCode.hpp; sourceTree = SOURCE_ROOT; };
+		A062477E99EB497EAAFB8806 /* zcDomain_Sample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = zcDomain_Sample; sourceTree = BUILT_PRODUCTS_DIR; };
+		A09B0B486EB14A6F88AA2EFB /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_assert/Zircon_Assertions.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Zircon_Assertions.hpp; path = ../zcShared/lib/include/zc_assert/Zircon_Assertions.hpp; sourceTree = SOURCE_ROOT; };
+		A1245BB631ED41B1804E38B9 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/command/Command_CloseAccount.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Command_CloseAccount.cpp; path = lib/src/command/Command_CloseAccount.cpp; sourceTree = SOURCE_ROOT; };
+		A47AFE86ED5A4F98B4CA3B34 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/AccountInformation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AccountInformation.cpp; path = lib/src/aggregate/AccountInformation.cpp; sourceTree = SOURCE_ROOT; };
+		AAD137750676459BB7F5E5B1 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zcCommon.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zcCommon.h; path = ../zcShared/lib/include/zcCommon.h; sourceTree = SOURCE_ROOT; };
+		AD29DE83E93145598C807E3D /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/FullName.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FullName.cpp; path = lib/src/aggregate/FullName.cpp; sourceTree = SOURCE_ROOT; };
+		AED3D81F25B145A48BC28726 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/sample/src/zcDomain_Sample.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zcDomain_Sample.cpp; path = exec/sample/src/zcDomain_Sample.cpp; sourceTree = SOURCE_ROOT; };
+		AF4ACBD88FD642C4BEE9B322 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_hash/ZcHash.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ZcHash.hpp; path = ../zcShared/lib/include/zc_hash/ZcHash.hpp; sourceTree = SOURCE_ROOT; };
+		B4BDE49826FB43CDA790ABDA /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/Aggregate.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Aggregate.cpp; path = lib/src/aggregate/Aggregate.cpp; sourceTree = SOURCE_ROOT; };
+		B56EB0D25E8B4CF3B2DC2768 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/zcTemplateClass.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zcTemplateClass.cpp; path = lib/src/zcTemplateClass.cpp; sourceTree = SOURCE_ROOT; };
+		B75D7FA5C06D488EA6BC9B13 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/AccountId.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = AccountId.hpp; path = lib/include/aggregate/AccountId.hpp; sourceTree = SOURCE_ROOT; };
+		B925502A39EE4D828ADF8AB1 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/Version.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Version.hpp; path = ../zcShared/lib/include/Version.hpp; sourceTree = SOURCE_ROOT; };
+		BDE88A2FE6F045B0B5D8412F /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/SSN.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SSN.hpp; path = lib/include/aggregate/SSN.hpp; sourceTree = SOURCE_ROOT; };
+		C1F9C56EA155416CA2A57D56 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zcSinglyLinkedList.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zcSinglyLinkedList.h; path = ../zcShared/lib/include/zcSinglyLinkedList.h; sourceTree = SOURCE_ROOT; };
+		C4DDD0819E57414D909DDBCE /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command_CloseAccount.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Command_CloseAccount.hpp; path = lib/include/command/Command_CloseAccount.hpp; sourceTree = SOURCE_ROOT; };
+		C95B62C6C00B4AB292D48451 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/event/Event_AccountVerificationStarted.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Event_AccountVerificationStarted.cpp; path = lib/src/event/Event_AccountVerificationStarted.cpp; sourceTree = SOURCE_ROOT; };
+		CAE3FB730ACF44C88E1433A9 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_assert/ppk_assert.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ppk_assert.h; path = ../zcShared/lib/include/zc_assert/ppk_assert.h; sourceTree = SOURCE_ROOT; };
+		CC719D24393447789316DD1E /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/event/Event.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Event.cpp; path = lib/src/event/Event.cpp; sourceTree = SOURCE_ROOT; };
+		CE3C40F29A4A41FDB8B6A9B5 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/AccountId.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = AccountId.hpp; path = lib/include/aggregate/AccountId.hpp; sourceTree = SOURCE_ROOT; };
+		CF0D1AF578A1407085EE51A0 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountCreated.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Event_AccountCreated.hpp; path = lib/include/event/Event_AccountCreated.hpp; sourceTree = SOURCE_ROOT; };
+		D0414426AD7647F492B3D31F /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/AccountInformation.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = AccountInformation.hpp; path = lib/include/aggregate/AccountInformation.hpp; sourceTree = SOURCE_ROOT; };
+		D25CE2E123FF44A38865EB59 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/SSN.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SSN.cpp; path = lib/src/aggregate/SSN.cpp; sourceTree = SOURCE_ROOT; };
+		D76D1A57BAED433EA2909F09 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/test/lib/src/Test_Unit_Aggregate_Account.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Test_Unit_Aggregate_Account.cpp; path = exec/test/lib/src/Test_Unit_Aggregate_Account.cpp; sourceTree = SOURCE_ROOT; };
+		D8D8CAF37ECA4C1B853D8372 /* zcDomain_TestLib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = zcDomain_TestLib; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9DA500D192A4C45B8CC0565 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/command/Command_CreateAccount.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Command_CreateAccount.cpp; path = lib/src/command/Command_CreateAccount.cpp; sourceTree = SOURCE_ROOT; };
+		DC70D958486B49CAAAFE5AD2 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/test/lib/src/test_DomainSample.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_DomainSample.cpp; path = exec/test/lib/src/test_DomainSample.cpp; sourceTree = SOURCE_ROOT; };
+		DF8428D784614915A4E93A95 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Event.hpp; path = lib/include/event/Event.hpp; sourceTree = SOURCE_ROOT; };
+		DFE724A0CA764431BAC51258 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Command.hpp; path = lib/include/command/Command.hpp; sourceTree = SOURCE_ROOT; };
+		E19E4D57455A4F84A5B42335 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/ReferralCode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ReferralCode.cpp; path = lib/src/aggregate/ReferralCode.cpp; sourceTree = SOURCE_ROOT; };
+		E2E36FBC5E784BB7B429CFA7 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E51DFCA90F5E494E8A0FBEDD /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/NameOfPerson.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = NameOfPerson.cpp; path = lib/src/aggregate/NameOfPerson.cpp; sourceTree = SOURCE_ROOT; };
+		E535807D5B9045378E5C7C3B /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/AccountId.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = AccountId.hpp; path = lib/include/aggregate/AccountId.hpp; sourceTree = SOURCE_ROOT; };
+		EDF41C4859294E5CB6CDD669 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountClosed.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Event_AccountClosed.hpp; path = lib/include/event/Event_AccountClosed.hpp; sourceTree = SOURCE_ROOT; };
+		F42B337FFEDB45D0A703E366 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Aggregate.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Aggregate.hpp; path = lib/include/aggregate/Aggregate.hpp; sourceTree = SOURCE_ROOT; };
+		F43FA99D3604420CBB37346F /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/Version.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Version.hpp; path = ../zcShared/lib/include/Version.hpp; sourceTree = SOURCE_ROOT; };
+		F4DC0587E35B4D388B65E506 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command_CloseAccount.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Command_CloseAccount.hpp; path = lib/include/command/Command_CloseAccount.hpp; sourceTree = SOURCE_ROOT; };
+		F6BA0184D5164775BD1CD9CF /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/DoB.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = DoB.hpp; path = lib/include/aggregate/DoB.hpp; sourceTree = SOURCE_ROOT; };
+		F9A63ADAE46246A89E12622E /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/AccountId.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AccountId.cpp; path = lib/src/aggregate/AccountId.cpp; sourceTree = SOURCE_ROOT; };
+		FCCBF6D7B9264248B057E3C9 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/PhoneNumber.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PhoneNumber.hpp; path = lib/include/aggregate/PhoneNumber.hpp; sourceTree = SOURCE_ROOT; };
+		FF736133B530472E9D8644BA /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command_CreateAccount.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Command_CreateAccount.hpp; path = lib/include/command/Command_CreateAccount.hpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		10E558F886C94469974BB5EE /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				AED3D81F25B145A48BC28726 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/sample/src/zcDomain_Sample.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		2601782262B04B6E83CF9E37 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE3C40F29A4A41FDB8B6A9B5 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/AccountId.hpp */,
+				15A053FBDA4E49E4A7DCB003 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/AccountInformation.hpp */,
+				835E07DD3FF14947B09741FB /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Aggregate.hpp */,
+				4341EAD79F5B4292960575CD /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Aggregate_Account.hpp */,
+				5560DD8CB7AA4BFB97DB0C15 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/DoB.hpp */,
+				444AF9615CA147A7984A0EB9 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Email.hpp */,
+				3919747B57D6418DB093DF45 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/FullName.hpp */,
+				562C8E04CEBC4DA2AA2EAFA9 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/NameOfPerson.hpp */,
+				5D662A8A637445D89559BCA2 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/PhoneNumber.hpp */,
+				6080FB5A19094EB88544CFEA /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/ReferralCode.hpp */,
+				BDE88A2FE6F045B0B5D8412F /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/SSN.hpp */,
+				DFE724A0CA764431BAC51258 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command.hpp */,
+				F4DC0587E35B4D388B65E506 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command_CloseAccount.hpp */,
+				155770D3ECB244889B183525 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command_CreateAccount.hpp */,
+				0476A2A9C66B4BC5A83F3971 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event.hpp */,
+				EDF41C4859294E5CB6CDD669 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountClosed.hpp */,
+				42AB80D029E74EDAB6784D26 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountCreated.hpp */,
+				78626C53257F4888A295DE88 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountVerificationStarted.hpp */,
+				923AA83C90FA4A4B8761FE07 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/zcDomain.h */,
+				6EC0AC2033674D608723CA0B /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/zcDomain_p.h */,
+				3A74C3A82DC343CDB6D54AAC /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/zcTemplateClass.h */,
+				7EDE5B0059814FFE809E4548 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/CommonHeaders.hpp */,
+				F43FA99D3604420CBB37346F /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/Version.hpp */,
+				8989FAA4AF7F4E2AA6E1C35C /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zcCommon.h */,
+				060A365F88F644A1B4736168 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zcSinglyLinkedList.h */,
+				A09B0B486EB14A6F88AA2EFB /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_assert/Zircon_Assertions.hpp */,
+				CAE3FB730ACF44C88E1433A9 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_assert/ppk_assert.h */,
+				91CE5FA205F9464CB0D16CD9 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_hash/ZcHash.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		2B89313B6B574925A7C0A2C3 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				B75D7FA5C06D488EA6BC9B13 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/AccountId.hpp */,
+				367F8BBE6220485ABD052F5C /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/AccountInformation.hpp */,
+				8CDA6EE7AEDF4A068E553B85 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Aggregate.hpp */,
+				373597E0E6D74E559678CDC1 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Aggregate_Account.hpp */,
+				2CB9ECF4058040FFA50FE167 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/DoB.hpp */,
+				970BB4CD8E334F85ACCCCC84 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Email.hpp */,
+				6860875ED7AB4E87AD4F58AC /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/FullName.hpp */,
+				9A333EE2FAFD433590758163 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/NameOfPerson.hpp */,
+				FCCBF6D7B9264248B057E3C9 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/PhoneNumber.hpp */,
+				22941C0A80F141208D08100D /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/ReferralCode.hpp */,
+				3BDAFC11431144A394EA06D4 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/SSN.hpp */,
+				952683BE7CF04558896F830B /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command.hpp */,
+				8190EB54C5664571853F7328 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command_CloseAccount.hpp */,
+				FF736133B530472E9D8644BA /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command_CreateAccount.hpp */,
+				DF8428D784614915A4E93A95 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event.hpp */,
+				973CE7FA2C1D449B89F2AD03 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountClosed.hpp */,
+				20949500DF4D4EB890014758 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountCreated.hpp */,
+				93E1EBCC294649C5883C5EEC /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountVerificationStarted.hpp */,
+				12BADC807065456F8FC9197C /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/zcDomain.h */,
+				066B6A2FC87B4E72A85B3CCA /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/CommonHeaders.hpp */,
+				B925502A39EE4D828ADF8AB1 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/Version.hpp */,
+				9AE530FD44E643C9AEC6BFA7 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zcCommon.h */,
+				C1F9C56EA155416CA2A57D56 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zcSinglyLinkedList.h */,
+				7182ED0B918C405FAE2F6EEA /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_assert/Zircon_Assertions.hpp */,
+				8A95BD4118EF4F1B80C396C3 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_assert/ppk_assert.h */,
+				AF4ACBD88FD642C4BEE9B322 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_hash/ZcHash.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		3FFF23E0F619409191ABFD96 = {
+			isa = PBXGroup;
+			children = (
+				4EFDE0130C8D47A08CE7966F /* ALL_BUILD */,
+				C164056DA5214D8C9EE0E41F /* zcDomain */,
+				A5421EE3435F4F00A7570876 /* zcDomain_Sample */,
+				B7CB0A0BA5A64F0988CD474F /* zcDomain_TestLib */,
+				A691FC0640D244DBBFE961B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EFDE0130C8D47A08CE7966F /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				619B27F4550D4865B77C5747 /* CMake Rules */,
+				E2E36FBC5E784BB7B429CFA7 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		5BD8D4A86D704A1685233504 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				E535807D5B9045378E5C7C3B /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/AccountId.hpp */,
+				D0414426AD7647F492B3D31F /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/AccountInformation.hpp */,
+				F42B337FFEDB45D0A703E366 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Aggregate.hpp */,
+				2D7EA3F3CA6F4973AF35F927 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Aggregate_Account.hpp */,
+				F6BA0184D5164775BD1CD9CF /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/DoB.hpp */,
+				06B9BF5A306E4D90BBF7764C /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/Email.hpp */,
+				09F5C00179554CDEBE26980A /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/FullName.hpp */,
+				0524937241C3446992664E17 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/NameOfPerson.hpp */,
+				739AA6E4956948EA88217723 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/PhoneNumber.hpp */,
+				9F83BA4B9147416AB3B75680 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/ReferralCode.hpp */,
+				176137C74953403890D8C830 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/aggregate/SSN.hpp */,
+				82A56377BA634C2F98905BFB /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command.hpp */,
+				C4DDD0819E57414D909DDBCE /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command_CloseAccount.hpp */,
+				07A756BD43A4413892B48503 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/command/Command_CreateAccount.hpp */,
+				88C8AF9A1F9C40C3A4E230E4 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event.hpp */,
+				3F900F3D9B62416392F3F720 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountClosed.hpp */,
+				CF0D1AF578A1407085EE51A0 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountCreated.hpp */,
+				31FB34E1B7284B7B89093622 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/event/Event_AccountVerificationStarted.hpp */,
+				9D8357A40BAD44CB9DDCAA9B /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include/zcDomain.h */,
+				835974C69FB249E78F42EECF /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/CommonHeaders.hpp */,
+				5324ADBC53F94BAF82D89148 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/Version.hpp */,
+				AAD137750676459BB7F5E5B1 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zcCommon.h */,
+				4E32AB870DCD44A7A5553370 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zcSinglyLinkedList.h */,
+				617E1C71A8274AF78A5D4585 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_assert/Zircon_Assertions.hpp */,
+				9BA0E6B57A7341C88070DA93 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_assert/ppk_assert.h */,
+				89A5689D79A040C9A60156E8 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include/zc_hash/ZcHash.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		619B27F4550D4865B77C5747 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		6C7970700CBF469E84758FCE /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9A63ADAE46246A89E12622E /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/AccountId.cpp */,
+				A47AFE86ED5A4F98B4CA3B34 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/AccountInformation.cpp */,
+				B4BDE49826FB43CDA790ABDA /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/Aggregate.cpp */,
+				0BF31F30E6AF47AFAAF8CDDF /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/Aggregate_Account.cpp */,
+				285C0AC397EA467C9F869473 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/DoB.cpp */,
+				2C54D5208E0A404DBADC7B60 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/Email.cpp */,
+				AD29DE83E93145598C807E3D /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/FullName.cpp */,
+				E51DFCA90F5E494E8A0FBEDD /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/NameOfPerson.cpp */,
+				6705DD2B074642C3922E5F41 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/PhoneNumber.cpp */,
+				E19E4D57455A4F84A5B42335 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/ReferralCode.cpp */,
+				D25CE2E123FF44A38865EB59 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/SSN.cpp */,
+				95E697DC5A3F460BB6014C3C /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/command/Command.cpp */,
+				A1245BB631ED41B1804E38B9 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/command/Command_CloseAccount.cpp */,
+				D9DA500D192A4C45B8CC0565 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/command/Command_CreateAccount.cpp */,
+				CC719D24393447789316DD1E /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/event/Event.cpp */,
+				1A5EE705103440F5BC61A5E1 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/event/Event_AccountClosed.cpp */,
+				506131DA83C145C08938EFFD /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/event/Event_AccountCreated.cpp */,
+				C95B62C6C00B4AB292D48451 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/event/Event_AccountVerificationStarted.cpp */,
+				2CAF453BF76F4FBD97AE1900 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/zcDomain.cpp */,
+				9C304F5762D34B4C9F80BF48 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/zcDomain_p.cpp */,
+				B56EB0D25E8B4CF3B2DC2768 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/zcTemplateClass.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A5421EE3435F4F00A7570876 /* zcDomain_Sample */ = {
+			isa = PBXGroup;
+			children = (
+				10E558F886C94469974BB5EE /* Source Files */,
+				2B89313B6B574925A7C0A2C3 /* Header Files */,
+				69CFF0CBFB82457FB8FB468F /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/sample/CMakeLists.txt */,
+			);
+			name = zcDomain_Sample;
+			sourceTree = "<group>";
+		};
+		A691FC0640D244DBBFE961B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70A066C7128C4F7CA752E78A /* zcDomain */,
+				A062477E99EB497EAAFB8806 /* zcDomain_Sample */,
+				D8D8CAF37ECA4C1B853D8372 /* zcDomain_TestLib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7CB0A0BA5A64F0988CD474F /* zcDomain_TestLib */ = {
+			isa = PBXGroup;
+			children = (
+				D08ECB5C649A4845896CBBEA /* Source Files */,
+				5BD8D4A86D704A1685233504 /* Header Files */,
+				7EE0A60D13904FE8AA50DD3B /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/test/lib/CMakeLists.txt */,
+			);
+			name = zcDomain_TestLib;
+			sourceTree = "<group>";
+		};
+		C164056DA5214D8C9EE0E41F /* zcDomain */ = {
+			isa = PBXGroup;
+			children = (
+				6C7970700CBF469E84758FCE /* Source Files */,
+				2601782262B04B6E83CF9E37 /* Header Files */,
+				6455E2AD96B048A4B2EC212E /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/CMakeLists.txt */,
+			);
+			name = zcDomain;
+			sourceTree = "<group>";
+		};
+		D08ECB5C649A4845896CBBEA /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D76D1A57BAED433EA2909F09 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/test/lib/src/Test_Unit_Aggregate_Account.cpp */,
+				396C4146301A44B4B33D9ED7 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/test/lib/src/Test_Unit_Aggregate_Account_Apply_EventCreated.cpp */,
+				DC70D958486B49CAAAFE5AD2 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/test/lib/src/test_DomainSample.cpp */,
+				82AA437FD3F5465095650D55 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/test/lib/src/zcDomain_TestLib.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B1F3D6D2529473EB51C9AC9 /* zcDomain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7B352FB3D77442EB8BF0B2A /* Build configuration list for PBXNativeTarget "zcDomain" */;
+			buildPhases = (
+				6D01F5C2813443A19A23E2FB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zcDomain;
+			productName = zcDomain;
+			productReference = 70A066C7128C4F7CA752E78A /* zcDomain */;
+			productType = "com.apple.product-type.library.static";
+		};
+		899B4D2FA3DE45E1BCB04611 /* zcDomain_TestLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C66C3EECDE4E50AE52EF85 /* Build configuration list for PBXNativeTarget "zcDomain_TestLib" */;
+			buildPhases = (
+				B6C4B235F53D4C2F93802E8F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D33F84F638154B34A71A0CCD /* PBXTargetDependency */,
+			);
+			name = zcDomain_TestLib;
+			productName = zcDomain_TestLib;
+			productReference = D8D8CAF37ECA4C1B853D8372 /* zcDomain_TestLib */;
+			productType = "com.apple.product-type.tool";
+		};
+		BBE8E33FD0FA47F7AE752A4B /* zcDomain_Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38E726F3F2241679324767A /* Build configuration list for PBXNativeTarget "zcDomain_Sample" */;
+			buildPhases = (
+				AEB4DD7EFBAE404C905FA921 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8689AB9805334016ACE3DFBD /* PBXTargetDependency */,
+			);
+			name = zcDomain_Sample;
+			productName = zcDomain_Sample;
+			productReference = A062477E99EB497EAAFB8806 /* zcDomain_Sample */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFFBE6891FFA4D2B936A26E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 6CBBE2D904D240B7BB1349CF /* Build configuration list for PBXProject "zcDomain" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				3620BBB2591B491C8286ED89 /* Debug */,
+				BE75D09FB3F24A0C973F4254 /* Release */,
+				D60397EB979F4B08935C9043 /* MinSizeRel */,
+				B8D9C9C2339E4B37AAA8A43B /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 3FFF23E0F619409191ABFD96;
+			projectDirPath = /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain;
+			projectRoot = "";
+			targets = (
+				83FF43F7F65F4C1D9D6FFC7D /* ALL_BUILD */,
+				08CA998606A842449A077EA3 /* ZERO_CHECK */,
+				22DEC8558F6F4C27A44FB00D /* install */,
+				3B1F3D6D2529473EB51C9AC9 /* zcDomain */,
+				BBE8E33FD0FA47F7AE752A4B /* zcDomain_Sample */,
+				899B4D2FA3DE45E1BCB04611 /* zcDomain_TestLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26F632D540B149A09D7B185A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain -f /Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		6C80AF9E1998415FA20DE870 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		AFED9B8448B94F35AB3858BE /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain -f /Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		BAF194C09E514333B69A33AF /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain -f /Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		C836BD58F34B4AFB8EF0E94F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D35E374DDBEE49188F105EF5 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D01F5C2813443A19A23E2FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565D9DAE7F3549858CE38443 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/AccountId.cpp */,
+				38D18F6DF45041A9BF492EBE /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/AccountInformation.cpp */,
+				2B2DA3C61033428388B44A3E /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/Aggregate.cpp */,
+				28E2CDC49E864348BA5DC485 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/Aggregate_Account.cpp */,
+				0DC5A1269B8B43FCB27B2CAA /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/DoB.cpp */,
+				6DC6DD6C610D4D93B9B5D727 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/Email.cpp */,
+				F94D81ADADF74D2B9B6E533E /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/FullName.cpp */,
+				378EA0C1D78C4465815642DB /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/NameOfPerson.cpp */,
+				44A36C2601EC4D6EBEF1763D /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/PhoneNumber.cpp */,
+				92BB9F0EFE224F14BB059D80 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/ReferralCode.cpp */,
+				194A213CE74948F793AAB321 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/aggregate/SSN.cpp */,
+				ABC8C9D58F444FA3B896A996 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/command/Command.cpp */,
+				9910B3A341E94B17AA5FF4DA /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/command/Command_CloseAccount.cpp */,
+				620B4F6290E346CEB0EF6C80 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/command/Command_CreateAccount.cpp */,
+				54F797479BE048F99CCF784C /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/event/Event.cpp */,
+				ECCD1F2D49D6478886856072 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/event/Event_AccountClosed.cpp */,
+				259E3C89F56A45B2B0762DA4 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/event/Event_AccountCreated.cpp */,
+				65D4A85B70F14CA494557B2B /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/event/Event_AccountVerificationStarted.cpp */,
+				4DF81BC000264D54BFAE127B /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/zcDomain.cpp */,
+				AF3A6BDCF3A84BF2A93F20C7 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/zcDomain_p.cpp */,
+				E51C37C5738241AAAAEDB31C /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/src/zcTemplateClass.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB4DD7EFBAE404C905FA921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE97E51925C242869665B71B /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/sample/src/zcDomain_Sample.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C4B235F53D4C2F93802E8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97AFD0BA1044D03BE836453 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/test/lib/src/Test_Unit_Aggregate_Account.cpp */,
+				C126846B384D49CFA3095EC7 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/test/lib/src/Test_Unit_Aggregate_Account_Apply_EventCreated.cpp */,
+				4800B91DAE00430496D96D0E /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/test/lib/src/test_DomainSample.cpp */,
+				23791089ECEE4311A4CF2089 /* /Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/test/lib/src/zcDomain_TestLib.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01D0D4875C834BC781E08B84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B1F3D6D2529473EB51C9AC9 /* zcDomain */;
+			targetProxy = C7A61427ACCD496296345D9A /* PBXContainerItemProxy */;
+		};
+		0DFBAABA3B474354BC7FEF74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08CA998606A842449A077EA3 /* ZERO_CHECK */;
+			targetProxy = 9349F616D8174A768EE3BF35 /* PBXContainerItemProxy */;
+		};
+		40D806FDD67844CC840C21E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 899B4D2FA3DE45E1BCB04611 /* zcDomain_TestLib */;
+			targetProxy = F09ED998EB424DDA82927BA9 /* PBXContainerItemProxy */;
+		};
+		5B7C2BA3BA334C06AE742BA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83FF43F7F65F4C1D9D6FFC7D /* ALL_BUILD */;
+			targetProxy = 14F19AE822894EDE8C41ED9E /* PBXContainerItemProxy */;
+		};
+		8689AB9805334016ACE3DFBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B1F3D6D2529473EB51C9AC9 /* zcDomain */;
+			targetProxy = AE7BEC5C1FDA4E8C9435F315 /* PBXContainerItemProxy */;
+		};
+		D33F84F638154B34A71A0CCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B1F3D6D2529473EB51C9AC9 /* zcDomain */;
+			targetProxy = 5522CFF4937D4FC69D706759 /* PBXContainerItemProxy */;
+		};
+		F8A009AF87234F9B906B2F31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBE8E33FD0FA47F7AE752A4B /* zcDomain_Sample */;
+			targetProxy = 552A44300F17463D995AE4F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F527EF7F9C2405591F79A64 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		29C804255BEB4406BEA52D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'disabled_USE_OWN_MAIN=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/test/lib/include,/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include,/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain/lib/Debug/libzcDomain.a  /Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcShared/lib/Debug/libzcShared.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = zcDomain_TestLib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain/exec/test/lib";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2EE8C83A35814DD5B71CC025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		332215F651D744529AF9426A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3BE8D25CC4E842B59339C2D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'disabled_USE_OWN_MAIN=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include,/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = zcDomain;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain/lib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4D5B8E3B3C1549FFAE447976 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'disabled_USE_OWN_MAIN=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/sample/include,/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include,/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain/lib/RelWithDebInfo/libzcDomain.a /Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcShared/lib/RelWithDebInfo/libzcShared.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = zcDomain_Sample;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain/exec/sample";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4EB1422FD07E4F8DB814A75F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'disabled_USE_OWN_MAIN=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/test/lib/include,/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include,/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain/lib/Release/libzcDomain.a  /Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcShared/lib/Release/libzcShared.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = zcDomain_TestLib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain/exec/test/lib";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		694937C7F52D45DB81D0FCA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		6EAD667BCF81412497C74213 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7F393DA58FFD46CCBA4AF8BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		80B5BDC71CC44EC0AD69A09C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'disabled_USE_OWN_MAIN=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include,/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = zcDomain;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain/lib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		854BC9CBCA504C6798313026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain/build";
+			};
+			name = Debug;
+		};
+		86C4CF0CD5594BDAA4B2F8D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'disabled_USE_OWN_MAIN=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/sample/include,/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include,/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain/lib/Release/libzcDomain.a /Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcShared/lib/Release/libzcShared.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = zcDomain_Sample;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain/exec/sample";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		901955E1733F4611BA42EA7A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9081E6B815B64FF1AD0E97EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		AA2D1D7713F94B20A8262D90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		AA541E8C584540B0BDFD9D01 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'disabled_USE_OWN_MAIN=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/test/lib/include,/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include,/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain/lib/MinSizeRel/libzcDomain.a  /Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcShared/lib/MinSizeRel/libzcShared.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = zcDomain_TestLib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain/exec/test/lib";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AC9F77AA9E5142B8AC5A63FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain/build";
+			};
+			name = Release;
+		};
+		B1000A88B7114FB98CD9A9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'disabled_USE_OWN_MAIN=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include,/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = zcDomain;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain/lib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		BD5A93214BEA44DFBB26B1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'disabled_USE_OWN_MAIN=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/sample/include,/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include,/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain/lib/Debug/libzcDomain.a /Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcShared/lib/Debug/libzcShared.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = zcDomain_Sample;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain/exec/sample";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		BE34C75E0EDD47EE9BE91FAF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'disabled_USE_OWN_MAIN=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/sample/include,/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include,/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain/lib/MinSizeRel/libzcDomain.a /Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcShared/lib/MinSizeRel/libzcShared.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = zcDomain_Sample;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain/exec/sample";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CA32552098364B6B9EFFC437 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain/build";
+			};
+			name = MinSizeRel;
+		};
+		D367EAFDC808485FA3271E90 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DC7BE21BA5D34C95BE6F24B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		DE4FB3A0A03F42D093EDDD55 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'disabled_USE_OWN_MAIN=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include,/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = zcDomain;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain/lib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F24B38FBD7C14BE592A9159B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F9A8320FC1914F2597993B7E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'disabled_USE_OWN_MAIN=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/exec/test/lib/include,/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcDomain/lib/include,/Users/virendra.shakya/Zircon/microservice.petsitter.reg/zcPetSitterRegistration/zcShared/lib/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain/lib/RelWithDebInfo/libzcDomain.a  /Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcShared/lib/RelWithDebInfo/libzcShared.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = zcDomain_TestLib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain/exec/test/lib";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FC92B45605EC488E87A60514 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/virendra.shakya/Zircon/microservice.petsitter.reg/XCODE-BUILD/zcDomain/build";
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62EE707FB9A04EBD8F964465 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9081E6B815B64FF1AD0E97EC /* Debug */,
+				2EE8C83A35814DD5B71CC025 /* Release */,
+				901955E1733F4611BA42EA7A /* MinSizeRel */,
+				6EAD667BCF81412497C74213 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6CBBE2D904D240B7BB1349CF /* Build configuration list for PBXProject "zcDomain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				854BC9CBCA504C6798313026 /* Debug */,
+				AC9F77AA9E5142B8AC5A63FA /* Release */,
+				CA32552098364B6B9EFFC437 /* MinSizeRel */,
+				FC92B45605EC488E87A60514 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8F08689BD2D344A9A621A0C2 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7BE21BA5D34C95BE6F24B0 /* Debug */,
+				694937C7F52D45DB81D0FCA5 /* Release */,
+				F24B38FBD7C14BE592A9159B /* MinSizeRel */,
+				0F527EF7F9C2405591F79A64 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		94C66C3EECDE4E50AE52EF85 /* Build configuration list for PBXNativeTarget "zcDomain_TestLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29C804255BEB4406BEA52D68 /* Debug */,
+				4EB1422FD07E4F8DB814A75F /* Release */,
+				AA541E8C584540B0BDFD9D01 /* MinSizeRel */,
+				F9A8320FC1914F2597993B7E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BCDD3D543AFD42AE98A3A5F0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2D1D7713F94B20A8262D90 /* Debug */,
+				7F393DA58FFD46CCBA4AF8BD /* Release */,
+				332215F651D744529AF9426A /* MinSizeRel */,
+				D367EAFDC808485FA3271E90 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C38E726F3F2241679324767A /* Build configuration list for PBXNativeTarget "zcDomain_Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5A93214BEA44DFBB26B1DA /* Debug */,
+				86C4CF0CD5594BDAA4B2F8D7 /* Release */,
+				BE34C75E0EDD47EE9BE91FAF /* MinSizeRel */,
+				4D5B8E3B3C1549FFAE447976 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F7B352FB3D77442EB8BF0B2A /* Build configuration list for PBXNativeTarget "zcDomain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1000A88B7114FB98CD9A9CD /* Debug */,
+				3BE8D25CC4E842B59339C2D9 /* Release */,
+				DE4FB3A0A03F42D093EDDD55 /* MinSizeRel */,
+				80B5BDC71CC44EC0AD69A09C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFFBE6891FFA4D2B936A26E5 /* Project object */;
+}
